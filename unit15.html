@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 15 – Software Installation</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1b2a; --card: #132840; --border: #1e3a52; --accent: #2a6496; --btn: #0f2d45; --btn-hover: #1a4a6e; --text: #e8edf2; --muted: #a8bcc8; --dl-btn: #0d3a20; --dl-btn-hover: #155230; --view-btn: #0c2e4a; --view-btn-hover: #174263; }
+  body { background: var(--bg); color: var(--text); font-family: 'Open Sans', sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+  nav { background: #0a1520; padding: 0 2rem; display: flex; justify-content: center; gap: 2.5rem; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--border); }
+  nav a { color: var(--text); text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 0.95rem; padding: 1rem 0.25rem; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+  nav a:hover { border-bottom-color: var(--accent); color: #fff; }
+  header { text-align: center; padding: 3rem 1rem 2rem; }
+  .unit-label { font-size: 0.8rem; color: var(--accent); font-family: 'Raleway', sans-serif; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.4rem; }
+  header h1 { font-family: 'Raleway', sans-serif; font-size: 1.9rem; font-weight: 700; margin-bottom: 0.6rem; }
+  header p { color: var(--muted); font-size: 0.9rem; max-width: 520px; margin: 0 auto; line-height: 1.6; }
+  main { flex: 1; max-width: 700px; width: 100%; margin: 0 auto; padding: 0 1rem 3rem; display: flex; flex-direction: column; gap: 1.5rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; }
+  .card h2 { font-family: 'Raleway', sans-serif; font-size: 1.15rem; font-weight: 700; margin-bottom: 1.2rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--border); }
+  .work-item { display: flex; align-items: center; justify-content: space-between; padding: 0.9rem 0; border-bottom: 1px solid var(--border); gap: 1rem; }
+  .work-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .work-title { font-size: 0.9rem; font-weight: 600; }
+  .work-desc { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+  .work-actions { display: flex; gap: 0.5rem; flex-shrink: 0; }
+  .btn-dl { background: var(--dl-btn); color: #7dd9a2; border: none; padding: 0.45rem 0.9rem; border-radius: 4px; font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 0.78rem; cursor: pointer; transition: background 0.2s; text-decoration: none; }
+  .btn-dl:hover { background: var(--dl-btn-hover); }
+  .btn-view { background: var(--view-btn); color: #7bb8e8; border: none; padding: 0.45rem 0.9rem; border-radius: 4px; font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 0.78rem; cursor: pointer; transition: background 0.2s; text-decoration: none; }
+  .btn-view:hover { background: var(--view-btn-hover); }
+  .back-btn { display: inline-block; background: var(--btn); color: var(--text); text-decoration: none; padding: 0.6rem 1.2rem; border-radius: 4px; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 0.85rem; transition: background 0.2s; }
+  .back-btn:hover { background: var(--btn-hover); }
+  footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<header>
+  <div class="unit-label">Unit 15</div>
+  <h1>Software Installation</h1>
+  <p>This unit covers planning, carrying out, and documenting the installation of software onto computer systems, including testing and troubleshooting.</p>
+</header>
+<main>
+  <div class="card">
+    <h2>Unit Overview</h2>
+    <p style="color:var(--muted);font-size:0.9rem;line-height:1.7;">In this unit I learned how to plan and carry out software installations, create installation documentation, and perform post-installation testing. The work below includes all assignments and evidence completed for this unit.</p>
+  </div>
+
+  <div class="card">
+    <h2>Assignments &amp; Work</h2>
+
+    <div class="work-item">
+      <div>
+        <div class="work-title">Example 1</div>
+        <div class="work-desc">Assignment / document description goes here.</div>
+      </div>
+      <div class="work-actions">
+        <a href="#" class="btn-view" onclick="alert('View online coming soon.');return false;">View</a>
+        <a href="#" class="btn-dl" download>Download</a>
+      </div>
+    </div>
+
+    <div class="work-item">
+      <div>
+        <div class="work-title">Example 2</div>
+        <div class="work-desc">Assignment / document description goes here.</div>
+      </div>
+      <div class="work-actions">
+        <a href="#" class="btn-view" onclick="alert('View online coming soon.');return false;">View</a>
+        <a href="#" class="btn-dl" download>Download</a>
+      </div>
+    </div>
+
+    <div class="work-item">
+      <div>
+        <div class="work-title">Example 3</div>
+        <div class="work-desc">Assignment / document description goes here.</div>
+      </div>
+      <div class="work-actions">
+        <a href="#" class="btn-view" onclick="alert('View online coming soon.');return false;">View</a>
+        <a href="#" class="btn-dl" download>Download</a>
+      </div>
+    </div>
+
+   
+      </div>
+    </div>
+  </div>
+
+  <a href="projects.html" class="back-btn">← Back to Projects</a>
+</main>
+<footer>© 2026 Cruz – Level 2 BTEC ICT Portfolio</footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Portfolio – Cruz</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #0d1b2a; --card: #132840; --border: #1e3a52;
+    --accent: #2a6496; --btn: #0f2d45; --btn-hover: #1a4a6e;
+    --text: #e8edf2; --muted: #a8bcc8;
+  }
+  html { background: var(--bg); }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  nav {
+    background: #0a1520;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--border);
+  }
+  nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 1rem 0.25rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s, color 0.2s;
+    letter-spacing: 0.03em;
+  }
+  nav a:hover, nav a.active { border-bottom-color: var(--accent); color: #fff; }
+  header {
+    text-align: center;
+    padding: 4rem 1rem 3rem;
+  }
+  header h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+  header p {
+    color: var(--muted);
+    max-width: 420px;
+    margin: 0 auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  main {
+    flex: 1;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+  }
+  .card h2 { font-family: 'Raleway', sans-serif; font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem; }
+  .card p { color: var(--muted); font-size: 0.9rem; line-height: 1.7; }
+  .btn {
+    display: inline-block;
+    background: var(--btn);
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+    margin-top: 0.25rem;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .btn:hover { background: var(--btn-hover); }
+  .btn-group { display: flex; flex-direction: column; gap: 0.75rem; margin-top: 0.5rem; }
+  footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="active">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<header>
+  <h1>Digital Portfolio</h1>
+  <p>My name is Cruz and I am studying Level 2 BTEC ICT. This is my portfolio showing the work I have completed this year.</p>
+</header>
+<main>
+  <div class="card">
+    <h2>About Me</h2>
+    <a href="about.html" class="btn">Go to About Me</a>
+  </div>
+  <div class="card">
+    <h2>Portfolio Overview</h2>
+    <p>Each page includes downloadable assignments, explanations of my work, and examples of the work I have completed. This portfolio demonstrates my understanding of ICT concepts and my ability to apply them in real projects. Throughout this course I have worked on a range of units that have each taught me something different — from installing and configuring software, to developing my own programs, to producing a multimedia video from scratch. Some of it was challenging, but working through those challenges is what helped me improve the most. I'm proud of what I've put together here and I hope it gives a clear picture of the effort I've put in and the skills I've built over the year..</p>
+  </div>
+  <div class="card">
+    <h2>Select a Unit</h2>
+    <div class="btn-group">
+      <a href="unit15.html" class="btn">Unit 15 – Software Installation</a>
+      <a href="unit12.html" class="btn">Unit 12 – Software Development</a>
+      <a href="unit17.html" class="btn">Unit 17 – Multimedia Product Development</a>
+    </div>
+  </div>
+</main>
+<footer>© 2026 Cruz – Level 2 BTEC ICT Portfolio</footer>
+</body>
+</html>

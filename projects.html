@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects – Cruz</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1b2a; --card: #132840; --border: #1e3a52; --accent: #2a6496; --btn: #0f2d45; --btn-hover: #1a4a6e; --text: #e8edf2; --muted: #a8bcc8; }
+  body { background: var(--bg); color: var(--text); font-family: 'Open Sans', sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+  nav { background: #0a1520; padding: 0 2rem; display: flex; justify-content: center; gap: 2.5rem; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--border); }
+  nav a { color: var(--text); text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 0.95rem; padding: 1rem 0.25rem; border-bottom: 2px solid transparent; transition: border-color 0.2s; }
+  nav a:hover, nav a.active { border-bottom-color: var(--accent); color: #fff; }
+  header { text-align: center; padding: 3rem 1rem 2rem; }
+  header h1 { font-family: 'Raleway', sans-serif; font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+  header p { color: var(--muted); font-size: 0.9rem; }
+  main { flex: 1; max-width: 700px; width: 100%; margin: 0 auto; padding: 0 1rem 3rem; display: flex; flex-direction: column; gap: 1.5rem; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: 2rem; text-align: center; }
+  .card h2 { font-family: 'Raleway', sans-serif; font-size: 1.3rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .card p { color: var(--muted); font-size: 0.88rem; margin-bottom: 1.2rem; line-height: 1.6; }
+  .btn { display: inline-block; background: var(--btn); color: var(--text); text-decoration: none; padding: 0.7rem 1.5rem; border-radius: 4px; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; width: 100%; max-width: 380px; }
+  .btn:hover { background: var(--btn-hover); }
+  footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html" class="active">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+<header>
+  <h1>Projects</h1>
+  <p>Browse my completed BTEC ICT units below.</p>
+</header>
+<main>
+  <div class="card">
+    <h2>Unit 15 – Software Installation</h2>
+    <p>Documentation and evidence of software installation tasks, including planning, installation procedures, and post-installation testing.</p>
+    <a href="unit15.html" class="btn">View Unit 15</a>
+  </div>
+  <div class="card">
+    <h2>Unit 12 – Software Development</h2>
+    <p>Projects and assignments covering the software development lifecycle, including design, coding, and testing of applications.</p>
+    <a href="unit12.html" class="btn">View Unit 12</a>
+  </div>
+  <div class="card">
+    <h2>Unit 17 – Multimedia Product Development</h2>
+    <p>Work demonstrating the design and creation of multimedia products, including planning documents, assets, and final products.</p>
+    <a href="unit17.html" class="btn">View Unit 17</a>
+  </div>
+</main>
+<footer>© 2026 Cruz – Level 2 BTEC ICT Portfolio</footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact – Cruz</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root { --bg: #0d1b2a; --card: #132840; --border: #1e3a52; --accent: #2a6496; --text: #e8edf2; --muted: #a8bcc8; --highlight: #4a9fe8; }
+  body { background: var(--bg); color: var(--text); font-family: 'Open Sans', sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+  nav { background: #0a1520; padding: 0 2rem; display: flex; justify-content: center; gap: 2.5rem; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid var(--border); }
+  nav a { color: var(--text); text-decoration: none; font-family: 'Raleway', sans-serif; font-weight: 600; font-size: 0.95rem; padding: 1rem 0.25rem; border-bottom: 2px solid transparent; transition: border-color 0.2s, color 0.2s; }
+  nav a:hover, nav a.active { border-bottom-color: var(--accent); color: #fff; }
+  header { text-align: center; padding: 3.5rem 1rem 1.5rem; }
+  header h1 { font-family: 'Raleway', sans-serif; font-size: 2rem; font-weight: 700; margin-bottom: 0.6rem; }
+  header p { color: var(--muted); font-size: 0.92rem; }
+  main { flex: 1; max-width: 600px; width: 100%; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+  .detail {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--muted);
+  }
+  .detail span {
+    color: var(--highlight);
+    font-weight: 600;
+  }
+  .detail a {
+    color: var(--highlight);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .detail a:hover { text-decoration: underline; }
+  footer { text-align: center; padding: 1.5rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html" class="active">Contact</a>
+</nav>
+<header>
+  <h1>Contact Me</h1>
+  <p>If you'd like to get in touch, here's how you can reach me.</p>
+</header>
+<main>
+  <div class="card">
+    <div class="detail">Email: <a href="mailto:cruzdavies2009@gmail.com">cruzdavies2009@gmail.com</a></div>
+    <div class="detail">School: <span>Gower College Tycoch Campus</span></div>
+    <div class="detail">Location: <span>Swansea, Wales</span></div>
+  </div>
+</main>
+<footer>© 2026 Cruz – Level 2 BTEC ICT Portfolio</footer>
+</body>
+</html>
